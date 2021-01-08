@@ -1,31 +1,31 @@
-"nba_current_team_id","team_abbreviation","display_abbr","team_conference","display_conference","team_division","team_code","city","name","color","colors__001","colors__002","colors__003","colors__004"
-"1610612737","ATL","ATL","Eastern","Eastern","Southeast","hawks","Atlanta","Hawks","E13A3E","E13A3E","C4D600","061922",""
-"1610612738","BOS","BOS","Eastern","Eastern","Atlantic","celtics","Boston","Celtics","008348","008348","061922","BB9753",""
-"1610612751","BKN","BKN","Eastern","Eastern","Atlantic","nets","Brooklyn","Nets","061922","061922","FFFFFF","",""
-"1610612766","CHA","CHA","Eastern","Eastern","Southeast","hornets","Charlotte","Hornets","1D1160","1D1160","008CA8","A1A1A4",""
-"1610612741","CHI","CHI","Eastern","Eastern","Central","bulls","Chicago","Bulls","CE1141","CE1141","061922","",""
-"1610612739","CLE","CLE","Eastern","Eastern","Central","cavaliers","Cleveland","Cavaliers","860038","860038","FDBB30","002D62",""
-"1610612742","DAL","DAL","Western","Western","Southwest","mavericks","Dallas","Mavericks","061922","061922","007DC5","C4CED3","061922"
-"1610612743","DEN","DEN","Western","Western","Northwest","nuggets","Denver","Nuggets","4D90CD","4D90CD","FDB927","",""
-"1610612765","DET","DET","Eastern","Eastern","Central","pistons","Detroit","Pistons","006BB6","006BB6","ED174C","0F586C",""
-"1610612744","GSW","GSW","Western","Western","Pacific","warriors","Golden State","Warriors","FDB927","FDB927","006BB6","",""
-"1610612745","HOU","HOU","Western","Western","Southwest","rockets","Houston","Rockets","CE1141","CE1141","C4CED3","061922",""
-"1610612754","IND","IND","Eastern","Eastern","Central","pacers","Indiana","Pacers","FFC633","FFC633","00275D","BEC0C2",""
-"1610612746","LAC","LAC","Western","Western","Pacific","clippers","LA","Clippers","ED174C","ED174C","006BB6","061922",""
-"1610612747","LAL","LAL","Western","Western","Pacific","lakers","Los Angeles","Lakers","FDB927","FDB927","552582","061922",""
-"1610612763","MEM","MEM","Western","Western","Southwest","grizzlies","Memphis","Grizzlies","7399C6","7399C6","BED4E9","FDB927","0F586C"
-"1610612748","MIA","MIA","Eastern","Eastern","Southeast","heat","Miami","Heat","98002E","98002E","F9A01B","061922",""
-"1610612749","MIL","MIL","Eastern","Eastern","Central","bucks","Milwaukee","Bucks","00471B","00471B","F0EBD2","061922","007DC5"
-"1610612750","MIN","MIN","Western","Western","Northwest","timberwolves","Minnesota","Timberwolves","005083","005083","00A94F","C4CED3","061922"
-"1610612740","NOP","NOP","Western","Western","Southwest","pelicans","New Orleans","Pelicans","002B5C","002B5C","E31837","B4975A",""
-"1610612752","NYK","NYK","Eastern","Eastern","Atlantic","knicks","New York","Knicks","006BB6","006BB6","F58426","BEC0C2",""
-"1610612760","OKC","OKC","Western","Western","Northwest","thunder","Oklahoma City","Thunder","007DC3","007DC3","F05133","FDBB30","002D62"
-"1610612753","ORL","ORL","Eastern","Eastern","Southeast","magic","Orlando","Magic","007DC5","007DC5","C4CED3","061922",""
-"1610612755","PHI","PHI","Eastern","Eastern","Atlantic","sixers","Philadelphia","Sixers","ED174C","ED174C","006BB6","002B5C",""
-"1610612756","PHX","PHX","Western","Western","Pacific","suns","Phoenix","Suns","E56020","E56020","1D1160","63717A","F9A01B"
-"1610612757","POR","POR","Western","Western","Northwest","blazers","Portland","Trail Blazers","061922","061922","E03A3E","BAC3C9","061922"
-"1610612758","SAC","SAC","Western","Western","Pacific","kings","Sacramento","Kings","724C9F","724C9F","8E9090","061922",""
-"1610612759","SAS","SAS","Western","Western","Southwest","spurs","San Antonio","Spurs","061922","061922","BAC3C9","",""
-"1610612761","TOR","TOR","Eastern","Eastern","Atlantic","raptors","Toronto","Raptors","CE1141","CE1141","061922","A1A1A4",""
-"1610612762","UTA","UTA","Western","Western","Northwest","jazz","Utah","Jazz","002B5C","002B5C","F9A01B","00471B","BEC0C2"
-"1610612764","WAS","WAS","Eastern","Eastern","Southeast","wizards","Washington","Wizards","002B5C","002B5C","E31837","C4CED4",""
+nba_current_team_id,team_abbreviation,display_abbr,team_conference,display_conference,team_division,team_code,city_name,name,team_logos,twitter_handle,arena,arena_image,arena_lat,arena_long,color,colors__001,colors__002,colors__003,colors__004,color_005
+1610612737,ATL,ATL,Eastern,Eastern,Southeast,hawks,Atlanta,Hawks,,ATLHawks,State Farm Arena,,,,E13A3E,E13A3E,C4D600,61922,,
+1610612738,BOS,BOS,Eastern,Eastern,Atlantic,celtics,Boston,Celtics,,celtics,TD Garden,,,,8348,8348,61922,BB9753,,
+1610612751,BKN,BKN,Eastern,Eastern,Atlantic,nets,Brooklyn,Nets,,BrooklynNets,Barclays Center,,,,61922,61922,FFFFFF,,,
+1610612766,CHA,CHA,Eastern,Eastern,Southeast,hornets,Charlotte,Hornets,,hornets,Spectrum Center,,,,1D1160,1D1160,008CA8,A1A1A4,,
+1610612741,CHI,CHI,Eastern,Eastern,Central,bulls,Chicago,Bulls,,chicagobulls,United Center,,,,CE1141,CE1141,61922,,,
+1610612739,CLE,CLE,Eastern,Eastern,Central,cavaliers,Cleveland,Cavaliers,,cavs,Rocket Mortgage FieldHouse,,,,860038,860038,FDBB30,002D62,,
+1610612742,DAL,DAL,Western,Western,Southwest,mavericks,Dallas,Mavericks,,dallasmavs,American Airlines Center,,,,61922,61922,007DC5,C4CED3,61922,
+1610612743,DEN,DEN,Western,Western,Northwest,nuggets,Denver,Nuggets,,denvernuggets,Ball Arena,,,,4D90CD,4D90CD,FDB927,,,
+1610612765,DET,DET,Eastern,Eastern,Central,pistons,Detroit,Pistons,,DetroitPistons,Little Caesars Arena,,,,006BB6,006BB6,ED174C,0F586C,,
+1610612744,GSW,GSW,Western,Western,Pacific,warriors,Golden State,Warriors,,warriors,Chase Center,,,,FDB927,FDB927,006BB6,,,
+1610612745,HOU,HOU,Western,Western,Southwest,rockets,Houston,Rockets,,HoustonRockets,Toyota Center,,,,CE1141,CE1141,C4CED3,61922,,
+1610612754,IND,IND,Eastern,Eastern,Central,pacers,Indiana,Pacers,,Pacers,Bankers Life Fieldhouse,,,,FFC633,FFC633,00275D,BEC0C2,,
+1610612746,LAC,LAC,Western,Western,Pacific,clippers,LA,Clippers,,LAClippers,Staples Center,,,,ED174C,ED174C,006BB6,61922,,
+1610612747,LAL,LAL,Western,Western,Pacific,lakers,Los Angeles,Lakers,,Lakers,Staples Center,,,,FDB927,FDB927,552582,61922,,
+1610612763,MEM,MEM,Western,Western,Southwest,grizzlies,Memphis,Grizzlies,,memgrizz,FedExForum,,,,7399C6,7399C6,BED4E9,FDB927,0F586C,
+1610612748,MIA,MIA,Eastern,Eastern,Southeast,heat,Miami,Heat,,MiamiHEAT,American Airlines Arena,,,,98002E,98002E,F9A01B,61922,,
+1610612749,MIL,MIL,Eastern,Eastern,Central,bucks,Milwaukee,Bucks,,Bucks,Fiserv Forum,,,,00471B,00471B,F0EBD2,61922,007DC5,
+1610612750,MIN,MIN,Western,Western,Northwest,timberwolves,Minnesota,Timberwolves,,MNTimberwolves,Target Center,,,,5083,5083,00A94F,C4CED3,61922,
+1610612740,NOP,NOP,Western,Western,Southwest,pelicans,New Orleans,Pelicans,,PelicansNBA,Smoothie King Center,,,,002B5C,002B5C,E31837,B4975A,,
+1610612752,NYK,NYK,Eastern,Eastern,Atlantic,knicks,New York,Knicks,,nyknicks,Madison Square Garden,,,,006BB6,006BB6,F58426,BEC0C2,,
+1610612760,OKC,OKC,Western,Western,Northwest,thunder,Oklahoma City,Thunder,,okcthunder,Chesapeake Energy Arena,,,,007DC3,007DC3,F05133,FDBB30,002D62,
+1610612753,ORL,ORL,Eastern,Eastern,Southeast,magic,Orlando,Magic,,OrlandoMagic,Amway Center,,,,007DC5,007DC5,C4CED3,61922,,
+1610612755,PHI,PHI,Eastern,Eastern,Atlantic,sixers,Philadelphia,Sixers,,Sixers,Wells Fargo Center,,,,ED174C,ED174C,006BB6,002B5C,,
+1610612756,PHX,PHX,Western,Western,Pacific,suns,Phoenix,Suns,,Suns,Phoenix Suns Arena,,,,E56020,E56020,1D1160,63717A,F9A01B,
+1610612757,POR,POR,Western,Western,Northwest,blazers,Portland,Trail Blazers,,trailblazers,Moda Center,,,,61922,61922,E03A3E,BAC3C9,61922,
+1610612758,SAC,SAC,Western,Western,Pacific,kings,Sacramento,Kings,,SacamentoKings,Golden 1 Center,,,,724C9F,724C9F,8E9090,61922,,
+1610612759,SAS,SAS,Western,Western,Southwest,spurs,San Antonio,Spurs,,Spurs,AT&T Center,,,,61922,61922,BAC3C9,,,
+1610612761,TOR,TOR,Eastern,Eastern,Atlantic,raptors,Toronto,Raptors,,Raptors,Amalie Arena,,,,CE1141,CE1141,61922,A1A1A4,,
+1610612762,UTA,UTA,Western,Western,Northwest,jazz,Utah,Jazz,,utahjazz,Vivint Smart Home Arena,,,,002B5C,002B5C,F9A01B,00471B,BEC0C2,
+1610612764,WAS,WAS,Eastern,Eastern,Southeast,wizards,Washington,Wizards,,WashWizards,Capital One Arena,,,,002B5C,002B5C,E31837,C4CED4,,
