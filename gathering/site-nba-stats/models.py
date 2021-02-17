@@ -21,7 +21,7 @@ class PlayerGeneralTraditionalStats(Base):
         nullable=False,
     )
     season_id = Column(String, primary_key=True)
-    player_id = Column(Integer, primary_key=True)
+    nba_stats_player_id = Column(Integer, primary_key=True)
     player_name = Column(String)
     team_id = Column(Integer)
     team_abbreviation = Column(String)
@@ -101,7 +101,7 @@ class PlayerGeneralAdvancedTotals(Base):
         nullable=False,
     )
     season_id = Column(String, primary_key=True)
-    player_id = Column(Integer, primary_key=True)
+    nba_stats_player_id = Column(Integer, primary_key=True)
     player_name = Column(String)
     team_id = Column(Integer)
     team_abbreviation = Column(String)
@@ -173,7 +173,7 @@ class PlayerBios(Base):
         nullable=False,
     )
     season_id = Column(String, primary_key=True)
-    player_id = Column(Integer, primary_key=True)
+    nba_stats_player_id = Column(Integer, primary_key=True)
     player_name = Column(String)
     team_id = Column(Integer)
     team_abbreviation = Column(String)
@@ -211,7 +211,7 @@ class PlayerGameLogs(Base):
         nullable=False,
     )
     season_id = Column(String, primary_key=True)
-    player_id = Column(Integer, primary_key=True)
+    nba_stats_player_id = Column(Integer, primary_key=True)
     player_name = Column(String)
     team_id = Column(Integer)
     team_abbreviation = Column(String)
@@ -559,7 +559,7 @@ class Shots(Base):
         unique=True,
         nullable=False,
     )
-    player_id = Column(Integer, primary_key=True)
+    nba_stats_player_id = Column(Integer, primary_key=True)
     display_name  = Column(String)
     first_name = Column(String)
     last_name = Column(String)

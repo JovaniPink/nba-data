@@ -1,34 +1,34 @@
 nba_stats_columns = [
     "PLAYER_ID",
-    "PLAYER_NAME",  # "Player"
+    "PLAYER_NAME",  # "Player": "player_name"
     "TEAM_ID",
-    "TEAM_ABBREVIATION",
-    "AGE",  # "Age"
-    "GP",  # "G"
+    "TEAM_ABBREVIATION", # "Tm": "team_abbreviation"
+    "AGE",  # "Age": "age"
+    "GP",  # "G": "gp"
     "W",
     "L",
     "W_PCT",
-    "MIN",  # "MP"
-    "FGM",  # "FG"
-    "FGA",  # "FGA"
-    "FG_PCT",  # "FG%"
-    "FG3M",  # "3P"
-    "FG3A",  # "3PA"
-    "FG3_PCT",  # "3P%"
-    "FTM",  # "FT"
-    "FTA",  # "FTA"
-    "FT_PCT",  # "FT%"
-    "OREB",  # "ORB"
-    "DREB",  # "DRB"
-    "REB",  # "TRB"
-    "AST",  # "AST"
-    "TOV",  # "TOV"
-    "STL",  # "STL"
-    "BLK",  # "BLK"
+    "MIN",  # "MP": "min"
+    "FGM",  # "FG": "fgm"
+    "FGA",  # "FGA": "fga"
+    "FG_PCT",  # "FG%": "fg_pct"
+    "FG3M",  # "3P": "fg3m"
+    "FG3A",  # "3PA": "fg3a"
+    "FG3_PCT",  # "3P%": "fg3_pct"
+    "FTM",  # "FT": "ftm"
+    "FTA",  # "FTA": "fta"
+    "FT_PCT",  # "FT%": "ft_pct"
+    "OREB",  # "ORB": "oreb"
+    "DREB",  # "DRB": "dreb"
+    "REB",  # "TRB": "reb"
+    "AST",  # "AST": "ast"
+    "TOV",  # "TOV": "tov"
+    "STL",  # "STL": "stl"
+    "BLK",  # "BLK": "blk"
     "BLKA",
-    "PF",  # "PF"
+    "PF",  # "PF": "pf"
     "PFD",
-    "PTS",  # "PTS"
+    "PTS",  # "PTS": "pts"
     "PLUS_MINUS",
     "NBA_FANTASY_PTS",
     "DD2",
@@ -98,8 +98,36 @@ basketball_reference_columns = [
     "PTS",
 ]
 
+rename_these_columns = {
+    "Player": "player_name",
+    "Tm": "team_abbreviation",
+    "Age": "age",
+    "G": "gp",
+    "MP": "min",
+    "FG": "fgm",
+    "FGA": "fga",
+    "FG%": "fg_pct",
+    "3P": "fg3m",
+    "3PA": "fg3a",
+    "3P%": "fg3_pct",
+    "FT": "ftm",
+    "FTA": "fta",
+    "FT%": "ft_pct",
+    "ORB": "oreb",
+    "DRB": "dreb",
+    "TRB": "reb",
+    "AST": "ast",
+    "TOV": "tov",
+    "STL": "stl",
+    "BLK": "blk",
+    "PF": "pf",
+    "PTS": "pts",
+}
+
+
 drop_these_columns = [
     "Player",
+    "Tm",
     "Age",
     "G",
     "MP",
@@ -122,3 +150,36 @@ drop_these_columns = [
     "PF",
     "PTS",
 ]
+
+drop_these_columns_refactored = [
+    "player_name",
+    "team_abbreviation",
+    "age",
+    "gp",
+    "min",
+    "fgm",
+    "fga",
+    "fg_pct",
+    "fg3m",
+    "fg3a",
+    "fg3_pct",
+    "ftm",
+    "fta",
+    "ft_pct",
+    "oreb",
+    "dreb",
+    "reb",
+    "ast",
+    "tov",
+    "stl",
+    "blk",
+    "pf",
+    "pts",
+]
+
+# Converts a basketball reference season to a season recognized by stats.nba.com (2019 -> 2018-19)
+def convert_bbref_season_to_nba_season(season):
+    year = int(season)
+    last_year = year - 1
+    last_two = season[-2:]
+    return "{0}-{1}".format(last_year, last_two)
