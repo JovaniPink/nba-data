@@ -129,3 +129,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+data/interim/events_2018-2019_pbp.csv
+data/interim/events_2017-2018_pbp.csv

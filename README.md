@@ -2,6 +2,15 @@
 
 > Project folder for all my Jupyter Notebooks and NBA data workings.
 
+_Coding conventions_
+
+- [black](https://github.com/psf/black) for formatting
+- [google docstrings](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings)
+- [flake8](https://flake8.pycqa.org/en/latest/index.html#quickstart) for linting
+- [mypy](http://mypy-lang.org/) for static typing analysis
+- [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit style.
+- [isort](https://github.com/timothycrosley/isort/) for import organization.
+
 ## Todo Checklist
 
 A helpful checklist to gauge how your README is coming on what I would like to finish:
