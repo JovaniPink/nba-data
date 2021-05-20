@@ -2,7 +2,7 @@
 
 > Project folder for all my Jupyter Notebooks and NBA data workings.
 
-_Coding conventions_
+## Coding conventions
 
 - [black](https://github.com/psf/black) for formatting
 - [google docstrings](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings)
@@ -10,6 +10,10 @@ _Coding conventions_
 - [mypy](http://mypy-lang.org/) for static typing analysis
 - [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit style.
 - [isort](https://github.com/timothycrosley/isort/) for import organization.
+
+## Overview
+
+Currently working on some analysis with Power BI. To get the NBA data I created some Python scripts that run through NBA stats pages and storing the data into a PostgreSQL database. I've model the data in form of a star schema to work well with Power BI and it's data modeling.
 
 ## Todo Checklist
 

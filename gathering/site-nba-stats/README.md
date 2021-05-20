@@ -1,12 +1,11 @@
-
 Table of Contents
 
- 1) The Game Plan
- 2) Data Acquisition
- 3) Data Exploration & Processing
- 4) Choosing the Right Model
- 5) Testing and Results
- 6) Public API
+1.  The Game Plan
+2.  Data Acquisition
+3.  Data Exploration & Processing
+4.  Choosing the Right Model
+5.  Testing and Results
+6.  Public API
 
 Data Sources Matter:
 https://www.nba.com/stats/help/glossary/
@@ -14,6 +13,9 @@ https://www.basketball-reference.com/about/glossary.html
 
 https://sportsdata.io/developers/data-dictionary/nba
 http://popcornmachine.net/
+
+https://www.scrapehero.com/how-to-rotate-proxies-and-ip-addresses-using-python-3/
+https://www.scrapehero.com/how-to-fake-and-rotate-user-agents-using-python-3/
 
 ## Glossary
 
